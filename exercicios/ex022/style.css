@@ -1,0 +1,71 @@
+@chasert "UTF-8";
+
+* {
+    margin: 0; padding: 0;
+}
+
+body {
+    columns: 2;
+    position: relative;
+}
+
+p {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+section {
+   
+    
+}
+section#bloco {
+    width: 50%;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    padding-top: 5px;
+}
+
+section#bloco2 {
+    width: 50%;
+    padding-left: 10px;
+    position: absolute;
+    top: 60%;
+    left: 60%;
+    padding-top: 5px;
+}
+
+div.quadrado {
+    display: inline-block;
+    background-color: lightblue;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding-left: 10px;
+    width: 500px;
+    height: 200px;   
+    
+}
+
+div#q2 {
+    background-image: linear-gradient(to bottom, white, red);
+   
+}
+
+div#q3 {
+    background-image: url('imagens/pattern003.png');  
+        
+}
+div#q4 {
+    background-image: url('imagens/wallpaper002.jpg');
+   
+}
+
+div#q5 {
+    background-image: url('imagens/pattern004.png');
+   
+}
+
+div#q6 {
+    background-image: url('imagens/wallpaper005.jpg');
+   
+}
+
