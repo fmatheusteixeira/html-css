@@ -99,12 +99,20 @@ img{
     min-width: 300px;
     
 }
-.video {
-    
-    background-color: ;
-    max-width: 800px;
-    min-width: 320px
-    
+main > .video {    
+    background-color: #3B6B2C;
+    margin: 0px -15px 0px -15px;
+    padding: 20px;
+    padding-bottom: 56%;
+    position: relative;      
+        
+}
+.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
 }
 aside {
     background-color: #3B6B2C;
