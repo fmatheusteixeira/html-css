@@ -1,0 +1,188 @@
+@charset "UTF-8";
+
+
+* {
+    margin: 0; padding: 0;
+}
+:root {
+    --cor01:#FFCFB3;
+    --cor02:#CCCCCC;
+    --cor03:#080800;
+    --cor04:#806657;
+}
+p {
+    color: #080800;
+}
+
+header {
+    background-color: #806657;
+    padding: 20px;
+    
+}
+header h1 {
+    color: #CCCCCC;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+}
+
+header p {
+    color: #CCCCCC;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+}
+
+#menu nav {
+    padding-top: 20px;
+    margin-bottom: -15px;
+}
+
+#menu a {
+    color: black;
+    font-size: 14px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-right: 10px;
+    text-decoration: none;
+    
+}
+
+#menu > nav :hover {
+    font-weight: bold;    
+}
+#whatsapp {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+#container {
+    background-color: var(--cor01);
+    height: 400px;
+    margin: 10px;
+    margin-top: -20px;
+}
+
+
+.slider {
+    display: block;
+    height: 293px;
+    width: 600px;
+    margin: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    position: relative;
+}
+
+.slider li {
+    list-style: none;
+    position: absolute;
+}
+
+.slider img {
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    min-width: 500px;
+    max-width: 700px;
+    vertical-align: top;
+}
+.slider input {
+    display: none;
+}
+
+.slider label {
+    background-color: #fff;
+    bottom: 10px;
+    cursor: pointer;
+    display: block;
+    height: 10px;
+    position: absolute;
+    width: 10px;
+    z-index: 10;
+}
+
+.slider li:nth-child(1) label {
+    left: 10px;
+}
+
+.slider li:nth-child(2) label {
+    left: 40px;
+}
+
+.slider li:nth-child(3) label {
+    left: 70px;
+}
+
+.slider img {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.slider li input:checked ~ img {
+    opacity: 1;
+    visibility: visible;
+    z-index: 10;
+}
+
+.principal > p {
+    text-align: justify;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-bottom: 40px;
+} 
+
+.principal h2 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: justify;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+} 
+
+/*
+figure > img {
+    margin: auto;
+    height: 203px;
+    width: 400px;
+    vertical-align: top;
+    display: block;        
+}
+.product-img {    
+    text-align: center;
+    margin: 60px auto;
+    border-image: 10px;
+}
+    
+#box-01 #food {
+    display: inline;
+    margin-left: 30px;
+}
+
+#box-01 #pills {
+    display: inline;
+    margin-left: 30px;
+}
+
+#box-01 #toys {
+    display: inline;
+    margin-left: 30px;
+}
+*/
+div#banho {
+    background-color: var(--cor02);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+
+#banho h3 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #806657;
+    padding: 15px;
+    text-align: center;
+}
+#banho p {
+    padding: 15px;
+    text-align: justify;
+}

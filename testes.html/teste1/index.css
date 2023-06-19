@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(24, 24, 24);
+    color: white;        
+}
+
+h1 {
+    color: white;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    text-align: center;
+    padding-top: 90px;
+}
+main > img {
+    margin: 10px 10px 10px 10px;
+}
+main > a {
+    padding-left: 7px;   
+}
+.nomes > p {
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline;
+    padding-left: 45px; 
+    padding-right: 45px;           
+}
+img {
+    border-radius: 4px;
+}
+img :hover {
+    opacity: 1;
+    background-color: white;
+    background-size: 100% auto;    
+}
+
+
+    
