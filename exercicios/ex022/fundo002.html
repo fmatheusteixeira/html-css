@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posição Imagem</title>
+    <style>
+        body {
+            columns: 2;
+        }
+        div.quadrado {
+            border: 1px solid #000;
+            border-radius: 10px;
+            height: 200px;
+            margin: 5px;
+            
+        }
+        div#q1 {
+            background-image: url('imagens/wallpaper003.jpg');
+        }
+
+        div#q2 {
+            background-image: url('imagens/wallpaper003.jpg');
+            background-position: left center;
+        }
+
+        div#q3 {
+            background-image: url('imagens/wallpaper003.jpg');
+            background-position: center center;
+        }
+
+        div#q4 {
+            background-image: url('imagens/wallpaper003.jpg');
+            background-position: right bottom;
+        }
+
+        code{
+            font-size: 14px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="quadrado" id="q1">
+        <code>background-position: left top</code>
+    </div>
+    <div class="quadrado" id="q2">
+        <code>background-position: left center</code>
+    </div>
+    <div class="quadrado" id="q3">
+        <code>background-position: center center</code>
+    </div>
+    <div class="quadrado" id="q4">
+        <code>background-position: right bottom</code>
+    </div>
+</body>
+</html>
