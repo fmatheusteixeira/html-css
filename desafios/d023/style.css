@@ -1,0 +1,134 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Passion+One&family=Roboto:wght@100;400&family=Sriracha&display=swap');
+
+:root {
+    --fonte02:'Passion One';
+    --fonte03: 'Sriracha';
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    color: #fff;
+    background-color: black;
+    padding: 40px;
+ 
+    margin-bottom: 40px;
+}
+
+header > h1 {
+    font-family: 'Passion One';
+    font-size: 3.5em;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.autor {
+    color: white;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 1em;
+    text-align: center;
+}
+
+.autor > p {
+    color: white;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 1em;
+}
+
+.autor > a {
+    color: white;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 1em;
+    text-decoration: none;
+}
+
+header b:hover {
+    text-decoration: underline;
+}
+
+main {
+    margin-left: 20px;    
+}
+
+p {
+    font-family: 'Sriracha', sans-serif;
+    font-size: 1.2em;
+}
+
+#flores {
+    background: black url('imagens/background001.jpg') right center no-repeat fixed;
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+    margin-top: 50px;
+    margin-left: -20px;
+    margin-right: auto;
+    margin-bottom: 50px;
+    position: relative;
+    
+}
+
+#flores > p {
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.438);
+    margin: 0;
+    padding: 5px;
+    width: 45%;
+    text-shadow: 2px 2px 2px black;
+    position: absolute;
+    left: 45%;
+    top: 50%;
+    transform: translate(-90%, -50%);
+        
+}
+
+#carta {
+    background: black url('imagens/background002.jpg') right center no-repeat fixed;
+    background-size: cover;
+    text-shadow: 2px 2px 2px black;
+    height: 400px;
+    width: 100%;
+    margin-top: 50px;
+    margin-left: -20px;
+    margin-right: auto;
+    margin-bottom: 50px;
+    position: relative;
+    
+}
+
+#carta > p {
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.438);
+    margin: 0;
+    padding: 5px;
+    width: 41%;
+    text-shadow: 2px 2px 2px black;
+    position: absolute;
+    left: 41%;
+    top: 50%;
+    transform: translate(-90%, -50%);
+        
+}
+
+footer {
+    color: white;
+    background-color: black;
+    margin-top: 50px;
+    padding: 20px;
+    text-align: center;
+}
+
+footer > a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    text-decoration: none;
+}
+
+footer b:hover {
+    text-decoration: underline;
+}
