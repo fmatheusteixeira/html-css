@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>teste flexbox</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script>
+        window.addEventListener('scroll', function() {
+        var button = document.querySelector('.scroll-top-button');
+        if (window.scrollY > 100) {
+          button.classList.add('show');
+        } else {
+          button.classList.remove('show');
+        }
+      });
+
+    </script>
+
+</head>
+<body>
+    <header>
+        <h1>Titulo</h1>
+        <nav>
+            <ul id="menu">
+              <li><a href="#">Página 1</a></li>
+              <li><a href="#">Página 2</a></li>
+              <li><a href="#">Página 3</a></li>
+              <li><a href="#">Página 4</a></li>
+            </ul>
+          </nav>
+    </header>
+    <main>
+            <div id="to-top-buttom">
+                <a href="#" class="scroll-top-button"><img src="https://icons.iconarchive.com/icons/icons8/ios7/128/Arrows-Up-icon.png" width="128" height="128"></a>
+            </div>
+
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, itaque quos sint necessitatibus enim temporibus minus, consectetur ullam corrupti dolorem eveniet reiciendis architecto incidunt eos ducimus explicabo exercitationem fuga illum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat eos ut temporibus dolorum labore obcaecati beatae quis veniam eligendi, sit asperiores expedita corporis recusandae est tempore dolore minus voluptate soluta!           
+            </p>
+        
+            <div id="container">
+                <div class="content">
+                </div>
+                <div class="content">
+                </div>
+                <div class="content">
+                </div>
+                <div class="content">
+                </div>
+            </div>
+        </section>
+        <section>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, deserunt sunt id et eaque dolorum minima laudantium explicabo nulla tempore asperiores ullam dolores repudiandae voluptas voluptatum quas non reprehenderit ut. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+            <div id="container2">
+                <div class="img">
+                    <a href="#" target="_blank">ACESSAR</a>
+                </div>
+            </div>
+            <h2>Section</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, excepturi delectus. Delectus beatae iure voluptates blanditiis, velit illum architecto numquam, quisquam necessitatibus repudiandae ratione consequuntur magnam vero ad aliquam nulla?
+            </p>
+        </section>
+        <div class="tabela">
+            <div class="celula" id=""></div>
+            <div class="celula" id=""></div>
+            <div class="celula" id=""></div>
+            <div class="celula" id=""></div>
+        </div>
+    </main>
+    <footer>
+        <a href="" target="" rel="">
+            Site Criado por Matheus - Github.
+        </a>
+    </footer>
+</body>
+</html>
